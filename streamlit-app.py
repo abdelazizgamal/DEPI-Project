@@ -15,7 +15,7 @@ def main():
         product_info = {
             "product_name": result["product"],
             "price": result["price"],
-            "image_url": "C:/Users/abdel/OneDrive/Desktop/image.jpg",
+            "image_url": "",
             "review": result["summary"],
             "pros": result["pros"],
             "cons": result["cons"],
