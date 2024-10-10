@@ -75,7 +75,7 @@ def process_request(request):
 
     sentiment_result = analyze_sentiment(data)
     # genai.configure(api_key=os.environ['GENAI_API_KEY'])
-    genai.configure(api_key = "")
+    genai.configure(api_key = "AIzaSyDmISC5HiI8iAjqckD43a3sa7Y6IdUwMu8")
     pros, cons, summary = get_pros_cons(sentiment_result)
     positive_reviews = sum(sentiment_result['predicted_rating'] == 1)
     negative_reviews = sum(sentiment_result['predicted_rating'] == 0)
